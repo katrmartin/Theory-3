@@ -97,6 +97,7 @@ public:
 
 //adjacency matrix graph ADT
 
+/*
 class adjGRAPH
 {
     int Vcnt, Ecnt; bool digraph;
@@ -135,7 +136,7 @@ public:
     }
     bool edge(int v, int w) const { return adj[v][w]; }
 };
-
+*/
 
 // C code:
 
@@ -191,8 +192,6 @@ int GRAPHedges (Edge a[], Graph G)
 }
 Graph GRAPHcopy (Graph);
 void GRAPHdestroy (Graph);
-
-
 
 
 
