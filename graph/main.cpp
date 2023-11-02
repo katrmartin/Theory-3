@@ -95,6 +95,13 @@ public:
     bool end() { return t == 0; }
 };
 
+//NEED DFS implementation !!!
+
+
+
+
+
+
 //adjacency matrix graph ADT
 
 /*
@@ -196,5 +203,15 @@ void GRAPHdestroy (Graph);
 
 
 int main() {
+//goal:
+
+//generate graphs of various size
+//put thru DFS search with functions to find:
+    //height of DFS tree
+    //number of back edges
+    //% of edges processed to see every vertex
+//calculate average
+
+
     return 0;
 }
