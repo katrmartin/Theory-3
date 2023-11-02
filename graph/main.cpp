@@ -49,7 +49,7 @@ class SparseMultiGRAPH
 //to add random edges to a graph
 
 
-    static void graphGenerator(SparseMultiGRAPH &G, int E)
+static void graphGenerator(SparseMultiGRAPH &G, int E)
 {
     double p = 2.0*E/G.V()/G.V()-1;
     for (int i = 0; i < G.V(); i++)
@@ -95,11 +95,7 @@ public:
     bool end() { return t == 0; }
 };
 
-//NEED DFS implementation !!!
-
-
-
-
+//Need DFS implementation !!!
 
 
 //adjacency matrix graph ADT
@@ -148,6 +144,8 @@ public:
 // C code:
 
 // Graph ADT interface
+
+/*
 
 typedef struct { int v; int w; } Edge;
 Edge EDGE(int, int);
@@ -200,6 +198,7 @@ int GRAPHedges (Edge a[], Graph G)
 Graph GRAPHcopy (Graph);
 void GRAPHdestroy (Graph);
 
+*/
 
 
 int main() {
